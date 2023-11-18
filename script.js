@@ -31,8 +31,8 @@ const data = [
   // // 4. Concatenate Array
   function concatenateArray() {
     const dummyArray= [
-      { name: "naruto", age: 17, profession: "shinobi" },
-      { name: "ichigo", age: 18, profession: "shinigami" },
+      { name: "kakashi", age: 17, profession: "shinobi" },
+      { name: "byakuya", age: 18, profession: "shinigami" },
     ];
     const concatenatedArray = data.concat(dummyArray);
     console.log(concatenatedArray);
