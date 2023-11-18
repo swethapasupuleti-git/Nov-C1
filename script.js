@@ -87,10 +87,10 @@ const data = [
   }
   
   // // 10. Profession Count (Simplified)
-function getTotalProfessions() {
-  const professionCount = {};
-  data.forEach((person) => {
-    professionCount[person.profession] = (professionCount[person.profession] || 0) + 1;
-  });
-  console.log(professionCount);
-}
+  function getTotalProfessions() {
+    const professionCount = {};
+    data.forEach((person) => {
+      professionCount[person.profession] = (professionCount[person.profession] || 0) + 1;
+    });
+    console.log(professionCount);
+  }
